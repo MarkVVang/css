@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/mycss.css">
+	<title>CSS4</title>
+</head>
+<body>
+	<div class="main">
+		<div class="top">
+			<img class="center" src="image/task3_0007s_0004_Status-Bar.png">
+			<div class="choose">
+				<a class="font32" href="#">关闭</a>
+				<a class="font36" href="#">登陆</a>
+				<a class="font322" href="#">返回</a>
+			</div>
+		</div>
+		<div class="bottom">
+			<div >
+				<div class="input">
+					<img class="image1" src="image/task3_0005s_0001_iphone.png">
+					<input id="inputi" type="text" name="mytext" value="请输入用户名" onclick="clicki()">
+				</div>
+				<div class="input">
+					<img class="image1" src="image/task3_0005s_0001_iphone.png">
+					<p class="write1">请输入手机号</p>
+				</div>
+				<div class="input">
+					<img class="image1" src="image/task3_0005s_0000_locked-2.png">
+					<p class="write1">请输入密码</p>
+				</div>
+				<dir class="btn">
+					登 陆
+				</dir>
+				<a class="findse" href="#">忘记密码？</a>
+			</div>
+		</div>
+	</div>
+	<div class="input">
+		<img class="image1" src="image/task3_0005s_0000_locked-2.png">
+		<input type="flie" name="mytext" value="请输入手机号">
+	</div>
+	<script type="text/javascript">
+		function clicki()
+		{			
+			document.getElementById("inputi").setAttribute("value","");
+		}
+	</script>
+</body>
+</html>

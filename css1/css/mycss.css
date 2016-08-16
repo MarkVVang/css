@@ -1,0 +1,21 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+div{
+	width: 357px;
+	height: 357px;
+	background: #fff;
+	padding: 20px;
+}
+ul{
+	list-style: none;
+}
+ul li{
+	width: 115px;
+	height: 115px;
+	background:#e8830d;
+	margin: 2px;
+	border-radius: 10px;
+	float: left;
+}

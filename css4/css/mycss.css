@@ -1,0 +1,94 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+.main{
+	width:720px;
+	height: 900px;
+	background:#eff0f4;
+}
+.top{
+	height: 128px;
+	background: #5fc0cd;
+}
+.center{
+	display: block;
+	margin:0px auto;
+	padding:2px 0px 0px 0px;
+}
+.choose{
+	position: relative;
+	top: 24px;
+	width: 660px;
+	margin: 0px auto;
+}
+.font32{
+	font-size: 32pt;
+	text-decoration : none;
+	color: #fff;
+	float: left;
+}
+.font322{
+	font-size: 32pt;
+	text-decoration : none;
+	color: #fff;
+	float: right;
+}
+.font36{
+	font-size: 36pt;
+	text-decoration : none;
+	color: #fff;
+	position: absolute;
+	top: 0px;
+	left: 275px;
+}
+.input{
+
+	height: 100px;
+	background:#fff;
+	margin-top: 28px;	
+	font-size: 30pt;
+	position: relative;	
+}
+.input p{
+	position: absolute;
+	top: 30px;
+	left: 144px;
+	color: #e1e5e7;	
+}
+
+.image1{
+	margin-top: 31px;
+	margin-left: 43px;
+	padding-right: 43px;
+	border-right: 1px solid #e1e5e7;	
+}
+
+.btn{
+	height: 100px;
+	line-height: 100px;
+	cursor: pointer;
+	background: #5fc0cd;
+	margin-top: 48px;
+	margin-bottom: 18px;
+	font-size: 40pt;
+	color: #fff;
+	text-align: center;
+}
+
+.findse{	
+	text-decoration: none;
+	color: #5fc0cd;
+	font-size: 30pt;
+	margin-left: 500px;
+}
+.input input{
+	border: 0px solid red;
+	position:absolute;
+	top:0px;
+	left: 144px;
+	height: 100px;
+	width: 500px;
+	font-size: 45px;
+	color: #e1e5e7;
+}
