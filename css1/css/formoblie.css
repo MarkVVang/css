@@ -5,12 +5,13 @@
 img{
 	display: block;
 	margin: 0px auto;
+	max-width: 100%;
 }
 
 div{
 	display: table;
 	margin: 0px auto;
-	padding: 20px;
+	padding: 10px;
 }
 ul{
 	list-style: none;
@@ -20,10 +21,10 @@ ul{
 }
 
 ul li{
-	width: 115px;
-	height: 115px;
-	margin-top: 5px;
-	margin-right: 5px;
+	width: 75px;
+	height: 75px;
+	margin-top: 2px;
+	margin-right: 2px;
 	background:#e8830d;
-	border-radius: 10px;	
+	border-radius: 5px;	
 }
