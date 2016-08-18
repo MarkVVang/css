@@ -2,13 +2,22 @@
 	margin:0px;
 	padding: 0px;
 }
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow-x:hidden;
+}
+img{
+	max-width: 100%;
+}
 .main{
-	width:720px;
-	height: 900px;
+	width:100%;
+	height: 100%;
 	background:#eff0f4;
+	font-family: "黑体","微软雅黑";
 }
 .top{
-	height: 128px;
+	
 	background: #5fc0cd;
 }
 .center{
@@ -17,78 +26,82 @@
 	padding:2px 0px 0px 0px;
 }
 .choose{
-	position: relative;
-	top: 24px;
-	width: 660px;
+	width: 95%;
 	margin: 0px auto;
+	padding-top:2%;
+	text-align: center;
 }
 .font32{
-	font-size: 32pt;
+	font-size: 2em;
 	text-decoration : none;
 	color: #fff;
 	float: left;
 }
 .font322{
-	font-size: 32pt;
+	font-size: 2em;
 	text-decoration : none;
 	color: #fff;
 	float: right;
 }
 .font36{
-	font-size: 36pt;
+	font-size: 2.5em;
 	text-decoration : none;
 	color: #fff;
-	position: absolute;
-	top: 0px;
-	left: 275px;
+
 }
 .input{
-
-	height: 100px;
+	width: 100%;
+	height: 20%;
 	background:#fff;
-	margin-top: 28px;	
-	font-size: 30pt;
+	margin-top: 1%;	
+	font-size: 2em;
 	position: relative;	
 }
+
 .input p{
 	position: absolute;
-	top: 30px;
-	left: 144px;
+	top: 35%;
+	left: 10%;
+	margin-left: 5%;
 	color: #e1e5e7;	
 }
 
 .image1{
-	margin-top: 31px;
-	margin-left: 43px;
-	padding-right: 43px;
-	border-right: 1px solid #e1e5e7;	
+	margin-top: 1%;
+	margin-left: 3.5%;
+	padding-right: 2%;
+	border-right: 2px solid #e1e5e7;	
 }
 
 .btn{
-	height: 100px;
-	line-height: 100px;
+	line-height: 2em;
 	cursor: pointer;
 	background: #5fc0cd;
-	margin-top: 48px;
-	margin-bottom: 18px;
-	font-size: 40pt;
+	margin-top: 3.5%;
+	margin-bottom: 1.5%;
+	font-size: 2.5em;
 	color: #fff;
 	text-align: center;
 }
-
+.bottom{
+	position: relative;
+	width: 100%;
+}
 .findse{	
 	text-decoration: none;
 	color: #5fc0cd;
-	font-size: 30pt;
-	margin-left: 500px;
+	font-size: 2em;
+	position: absolute;
+	right: 5%;
 }
 .input input{
-	border: 0px solid red;
+	border: 0px;
 	position:absolute;
-	top:0px;
-	left: 144px;
-	height: 100px;
-	width: 500px;
-	font-size: 45px;
+	top:0 ;
+	left: 10%;
+	height: 100%;
+	width: 90%;
+	padding-left: 5%;
+	font-size: 1em;
 	color: #e1e5e7;
 }
