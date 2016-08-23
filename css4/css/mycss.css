@@ -67,10 +67,11 @@ img{
 }
 
 .image1{
+	max-width: 100%;
 	margin-top: 1%;
 	margin-left: 3.5%;
-	padding-right: 2%;
-	border-right: 2px solid #e1e5e7;	
+	padding-right: 3.5%;
+	border-right: 2px solid #e1e5e7;
 }
 
 .btn{
@@ -95,12 +96,11 @@ img{
 	right: 5%;
 }
 .input input{
-	border: 0px;
+	border: 0;
 	position:absolute;
-	top:0 ;
-	left: 10%;
+	top:0;
 	height: 100%;
-	width: 90%;
+	width: 80%;
 	padding-left: 5%;
 	font-size: 1em;
 	color: #e1e5e7;
