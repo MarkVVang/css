@@ -86,14 +86,11 @@ html,body{
 
 } */
 .list{
-	width: 100%;
+	width: 90%;
 	padding-left: 10%;
-	display: flex;
-	flex-direction: column;
+
 }
 .skill{
-	flex: auto;
-	width: 100%;
 	margin-left: -3%;
 	padding-left: 3%;
 	margin-top: 2%;
@@ -103,8 +100,6 @@ html,body{
 }
 .star{
 	border-bottom: 1px solid #e1e5e7;
-	flex: auto;
-	width: 100%;
 	padding-top: 2%;
 	padding-bottom:2%;
 }
@@ -120,25 +115,21 @@ html,body{
 	margin-left: 1%;
 }
 .years{
-	flex: auto;
 	padding-top: 2%;
 	padding-bottom:2%;
 	border-bottom: 1px solid #e1e5e7;
 }
 .work{
-	flex: auto;
 	padding-top: 2%;
 	padding-bottom:2%;
 	border-bottom: 1px solid #e1e5e7;
 }
 .price{
-	flex: auto;
 	padding-top: 2%;
 	padding-bottom:2%;
 	border-bottom: 1px solid #e1e5e7;
 }
 .intru{
-	flex: auto;
 	padding-top: 2%;
 	padding-bottom:2%;
 	border-bottom: 1px solid #e1e5e7;
@@ -152,12 +143,9 @@ html,body{
 	color:#ff0000;
 }
 .footer{
-	width: 100%;
-	padding-bottom: 15%;
-	
+	width: 80%;
+	margin: 0 auto;
 	position: relative;
-	
-
 }
 .footer input{
 	display: inline-block;
@@ -167,24 +155,20 @@ html,body{
 	background: #fff;
 }
 .message{
-	position: absolute;
-	top: 0;
-	left: 5%;
 	text-align: center;
-	width: 35%;
-	margin-top: 10%;
-	padding-top: 3%;
-	padding-bottom: 3%;
-	
+	width: 45%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	font-size: 1.5rem;
+	line-height: 2.5rem;
 }
 .cont{
 	position: absolute;
-	top: 0;
-	left: 55%;
+	right: 0;
 	text-align: center;
-	width: 35%;
-	margin-top: 10%;
-	padding-top: 3%;
-	padding-bottom: 3%;
-	
+	width: 45%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	font-size: 1.5rem;
+	line-height: 2.5rem;
 }
