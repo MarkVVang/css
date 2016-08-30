@@ -1,0 +1,140 @@
+*{
+	margin: 0;
+	padding:0;
+}
+html,body{
+	width: 100%;
+	font-size: 125%;
+}
+img{
+	max-width: 100%;
+}
+@media screen and (max-width: 480px){
+	html{
+		font-size: 62.5%;
+	}
+}
+body{
+	font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
+}
+.header{
+	width: 100%;
+	padding-top: 1.25rem;
+	padding-bottom: 0.75rem;
+	border-bottom: 0.05rem solid #74d4eb;
+	font-size: 1.7rem;
+	color: #fff;
+	background: #29bde0;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.left{
+	max-height: 2.1rem;
+	position: absolute;
+	left: 1rem;
+	bottom: 0.5rem;
+}
+.right{
+	max-height: 2rem;
+	position: absolute;
+	right: 1rem;
+	bottom: 0.5rem;
+}
+.main{
+	width: 100%;
+	margin-top: 3.75rem;
+	text-align: center;
+}
+.footer{
+	width:100%;
+}
+.wrap1{
+	padding: 1.5rem 3.75rem 1.25rem 3.75rem;
+	background: #29bde0;
+}
+.wrap1 img{
+	max-height: 10.25rem;
+}
+.victory{
+	margin-top: 0.75rem;
+	margin-bottom: 1.5rem;
+	font-size: 1.65rem;
+	color: #ffc865;
+}
+.txt-left{
+	text-align: left;
+}
+.wrap1 span{
+	font-size: 1.25rem;
+	color: #fff;
+}
+.wrap2{
+	width: 100%;
+	background: #fff;
+}
+.data{
+	margin: 0.5rem 3.75rem 1.5rem 3.75rem;
+	text-align: left;
+}
+.day{
+	font-size: 1.5rem;
+	color: #515151;	
+}
+.time{
+	font-size: 1rem;
+	color: #c7c7c7;
+	float: right;
+}
+.situation{
+	display: block;
+	font-size: 1.3rem;
+	color: #a6a6a6;
+	margin-top: 0.75rem;
+	margin-bottom: 0.75rem;
+}
+hr{
+	border: 0.1rem solid #ddd;
+	color: #ddd;
+}
+.footer{
+	width: 100%;
+}
+.opacity{
+	width: 100%;
+	height: 7.5rem;
+	background: #29bde0;
+	opacity: 0.5;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.again{
+	display: inline-block;
+	width: 40%;
+	padding-top: 1.25rem;
+	padding-bottom: 1.25rem;
+	border-radius: 0.25rem;
+	font-size: 1.5rem;
+	color: #fff;
+	text-align: center;
+	background: #f66f6f;
+	position: fixed;
+	bottom: 1rem;
+	left: 1rem;
+}
+.share{
+	display: inline-block;
+	width: 40%;
+	padding-top: 1.25rem;
+	padding-bottom: 1.25rem;
+	border-radius: 0.25rem;
+	font-size: 1.5rem;
+	color: #fff;
+	text-align: center;
+	background: #fbb435;
+	position: fixed;
+	bottom: 1rem;
+	right: 1rem;
+}
