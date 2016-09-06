@@ -367,8 +367,10 @@ span.lh28{
 	margin-bottom:25px; 
 }
 .linkweb ul{
-	margin-left: 10px;
-	margin-right: 10px;
+	display: block;
+	width: 1200px;
+	margin: 0 auto;
+	text-align: center;
 }
 .linkweb ul li{
 	display: inline-block;
