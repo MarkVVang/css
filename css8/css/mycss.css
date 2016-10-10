@@ -1,7 +1,6 @@
 .main{
 	max-width: 100%;
 	background: #fafafa;
-	
 }
 .content{
 	width: 1220px;
@@ -128,7 +127,6 @@
 }
 .card>dl>dd:nth-child(2) img{
 	display: inline-block;
-	vertical-align: middle;
 	margin-left: 10px;
 }
 .card>dl>dd:nth-of-type(2)>span:first-child{
